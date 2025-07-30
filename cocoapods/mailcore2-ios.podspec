@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.6.4"
   spec.summary      = "Mailcore 2 for iOS"
   spec.description  = "MailCore 2 provide a simple and asynchronous API to work with e-mail protocols IMAP, POP and SMTP. The API has been redesigned from ground up."
-  spec.homepage     = "https://github.com/MailCore/mailcore2"
+  spec.homepage     = "https://github.com/hufengiOS/mailcore2"
   spec.license      = { :type => "BSD", :file => "LICENSE" }
   spec.author       = "MailCore Authors"
   spec.platform     = :ios, "8.0"
@@ -16,4 +16,20 @@ Pod::Spec.new do |spec|
   spec.vendored_libraries = "lib/libMailCore-ios.a"
   spec.libraries = ["xml2", "iconv", "z", "c++", "resolv"]
   spec.prepare_command = "curl -O https://github.com/MailCore/mailcore2/raw/master/LICENSE"
+  
+  # 添加架構支持配置
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'VALID_ARCHS' => 'arm64 arm64e x86_64',
+    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64',
+    'ONLY_ACTIVE_ARCH' => 'NO'
+  }
+  
+  # 添加用戶目標配置
+  spec.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'VALID_ARCHS' => 'arm64 arm64e x86_64',
+    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64',
+    'ONLY_ACTIVE_ARCH' => 'NO'
+  }
 end

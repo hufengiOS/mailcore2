@@ -1,0 +1,72 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "35b8b623d7033cd3e9a8fead723e748b12665f9cf1c91815653e73b033be70ac"
+    }
+  ],
+  "containerPath" : "/Users/yingliu/Documents/mailcore2/build-mac/mailcore2.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos18.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products",
+      "derivedDataPath" : "/Users/yingliu/Documents/mailcore2/build-xcframework/ios-device",
+      "indexDataStoreFolderPath" : "/Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "arm64 arm64e",
+          "SDKROOT" : "iphoneos18.4"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "71",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

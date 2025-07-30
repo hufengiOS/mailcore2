@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'MailCoreExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MailCoreExample
+  
+  # 使用本地 podspec 文件
+  pod 'mailcore2-ios', :path => '../../cocoapods/mailcore2-ios-xcframework.podspec'
+  
+  # 或者使用 GitHub 上的版本（如果已发布）
+  # pod 'mailcore2-ios', '~> 0.6.5'
+  
+  # 其他依赖
+  pod 'Alamofire', '~> 5.0'
+  pod 'SnapKit', '~> 5.0'
+
+  target 'MailCoreExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MailCoreExampleUITests' do
+    # Pods for testing
+  end
+
+end
+
+# 后安装脚本
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      
+      # 设置架构支持
+      config.build_settings['VALID_ARCHS'] = 'arm64 arm64e x86_64'
+      config.build_settings['VALID_ARCHS[sdk=iphonesimulator*]'] = 'x86_64 arm64'
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+      
+      # 禁用 Bitcode
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      
+      # 设置 iOS 部署目标
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+      
+      # 设置 C++ 标准
+      config.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++11'
+      config.build_settings['CLANG_CXX_LIBRARY'] = 'libc++'
+      
+      # 添加编译标志
+      config.build_settings['OTHER_CFLAGS'] = '$(inherited) -DNS_BLOCK_ASSERTIONS=1'
+      config.build_settings['OTHER_LDFLAGS'] = '$(inherited) -lc++'
+    end
+  end
+end 

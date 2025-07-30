@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/ustring.cpp \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/utypes.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/umachine.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/ptypes.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/platform.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uconfig.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uvernum.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/urename.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uversion.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/putil.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/ustring.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uiter.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/utf16.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/utf.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/cstring.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/cmemory.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/localpointer.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/cwchar.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/ustr_imp.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/ucase.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uset.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uchar.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/putilimp.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/uset_imp.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/udataswp.h

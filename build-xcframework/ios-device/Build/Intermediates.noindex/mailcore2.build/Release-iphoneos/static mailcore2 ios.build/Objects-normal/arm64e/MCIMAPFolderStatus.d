@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/yingliu/Documents/mailcore2/src/core/imap/MCIMAPFolderStatus.cpp \
+  /Users/yingliu/Documents/mailcore2/src/core/imap/MCIMAPFolderStatus.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCBaseTypes.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCAutoreleasePool.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCObject.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCUtils.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCValue.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCString.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCRange.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCICUTypes.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCData.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCMessageConstants.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCArray.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCHashMap.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCJSON.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCMD5.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCNull.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCSet.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCHash.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCLog.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCAssert.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCIndexSet.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCOperation.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCOperationQueue.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCLibetpanTypes.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCOperationCallback.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCIterator.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCConnectionLogger.h \
+  /Users/yingliu/Documents/mailcore2/build-xcframework/ios-device/Build/Products/Release-iphoneos/include/MailCore/MCHTMLCleaner.h

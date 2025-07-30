@@ -1,0 +1,15 @@
+dependencies: \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/inputext.cpp \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/utypes.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/umachine.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/ptypes.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/platform.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uconfig.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uvernum.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/urename.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uversion.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/inputext.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/uobject.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/cmemory.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/unicode/localpointer.h \
+  /Users/yingliu/Documents/mailcore2/src/core/basetypes/icu-ucsdet/include/cstring.h
