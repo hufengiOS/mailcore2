@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
   spec.name         = "mailcore2-ios"
-  spec.version      = "0.6.5"
+  spec.version      = "1.0.1"
   spec.summary      = "Mailcore 2 for iOS with modern architecture support"
   spec.description  = "MailCore 2 提供简单异步的 API 来处理邮件协议 IMAP、POP 和 SMTP。API 已重新设计。此版本支持现代 iOS 架构，包括 arm64 和 arm64e。"
   spec.homepage     = "https://github.com/hufengiOS/mailcore2"
   spec.license      = { :type => "BSD", :file => "LICENSE" }
   spec.author       = "MailCore Authors"
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/hufengiOS/mailcore2.git", :tag => "#{spec.version}" }
   spec.header_dir   = "MailCore"
   spec.requires_arc = false

@@ -30,7 +30,7 @@
 1. 在您的 `Podfile` 中添加：
 
 ```ruby
-platform :ios, '12.0'
+platform :ios, '13.0'
 
 target 'YourApp' do
   use_frameworks!
@@ -40,7 +40,7 @@ target 'YourApp' do
 end
 
 post_install do |installer|
-  installer.pods_project.targets.each do |target|
+  installer.pods_project.targets.each do |config|
     target.build_configurations.each do |config|
       config.build_settings['VALID_ARCHS'] = 'arm64 arm64e x86_64'
       config.build_settings['VALID_ARCHS[sdk=iphonesimulator*]'] = 'x86_64 arm64'
@@ -118,9 +118,9 @@ class EmailManager {
 
 ## 版本信息
 
-- **MailCore2 版本**: 0.6.5
+- **MailCore2 版本**: 1.0.1
 - **支持的协议**: IMAP, POP, SMTP, NNTP
-- **最低 iOS 版本**: 12.0
+- **最低 iOS 版本**: 13.0
 
 ## 注意事项
 

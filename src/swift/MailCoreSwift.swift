@@ -15,7 +15,7 @@ import MailCore
     // MARK: - 版本信息
     /// 获取 MailCore2 版本信息
     @objc public var version: String {
-        return "0.6.5"
+        return "1.0.1"
     }
     
     /// 获取支持的协议列表
