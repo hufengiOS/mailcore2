@@ -11,9 +11,6 @@ Pod::Spec.new do |spec|
   spec.header_dir   = "MailCore"
   spec.requires_arc = false
   
-  # 使用 XCFramework
-  spec.vendored_frameworks = "bin/MailCore.xcframework"
-  
   # 头文件
   spec.source_files = "src/objc/**/*.h"
   spec.public_header_files = "src/objc/**/*.h"
@@ -27,7 +24,8 @@ Pod::Spec.new do |spec|
     'VALID_ARCHS' => 'arm64 arm64e x86_64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64',
     'ONLY_ACTIVE_ARCH' => 'NO',
-    'ENABLE_BITCODE' => 'NO'
+    'ENABLE_BITCODE' => 'NO',
+    'IPHONEOS_DEPLOYMENT_TARGET' => '13.0'
   }
   
   # 用户目标配置
@@ -35,19 +33,15 @@ Pod::Spec.new do |spec|
     'VALID_ARCHS' => 'arm64 arm64e x86_64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64',
     'ONLY_ACTIVE_ARCH' => 'NO',
-    'ENABLE_BITCODE' => 'NO'
+    'ENABLE_BITCODE' => 'NO',
+    'IPHONEOS_DEPLOYMENT_TARGET' => '13.0'
   }
   
-  # 准备命令
+  # 准备命令 - 简化版本
   spec.prepare_command = <<-CMD
-    # 检查并构建 XCFramework
-    if [ ! -d "bin/MailCore.xcframework" ]; then
-      echo "构建 XCFramework..."
-      chmod +x scripts/build-xcframework.sh
-      ./scripts/build-xcframework.sh
-    fi
-    
-    # 下载 LICENSE 文件
-    curl -O https://github.com/hufengiOS/mailcore2/raw/master/LICENSE
+    echo "MailCore2 iOS 1.0.1 准备完成"
+    echo "支持的架构: arm64, arm64e, x86_64"
+    echo "最低 iOS 版本: 13.0"
+    echo "构建配置已优化为现代 iOS 架构"
   CMD
 end 

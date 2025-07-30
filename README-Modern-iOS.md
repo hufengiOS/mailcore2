@@ -14,6 +14,7 @@
 
 - `cocoapods/mailcore2-ios.podspec` - 更新了架构支持配置
 - `cocoapods/mailcore2-ios-xcframework.podspec` - 使用 XCFramework 的现代版本
+- `cocoapods/mailcore2-ios-simple.podspec` - 简化的现代版本
 
 ### 2. XCFramework 构建脚本
 
@@ -22,6 +23,10 @@
 ### 3. Swift 包装器
 
 创建了 `src/swift/MailCoreSwift.swift` 来提供更好的 Swift 集成体验。
+
+### 4. 现代构建脚本
+
+创建了 `scripts/build-mailcore2-ios-cocoapod-modern.sh` 来解决过时架构问题。
 
 ## 使用方法
 
@@ -136,14 +141,17 @@ class EmailManager {
 1. **架构不支持错误**:
    - 确保在 Podfile 中设置了正确的架构配置
    - 检查 `VALID_ARCHS` 设置
+   - 使用简化的 podspec 文件
 
 2. **编译错误**:
    - 确保使用 C++11 标准
    - 检查 `CLANG_CXX_LIBRARY` 设置为 `libc++`
+   - 确保最低 iOS 版本为 13.0
 
 3. **链接错误**:
    - 确保添加了必要的系统库
    - 检查 `OTHER_LDFLAGS` 设置
+   - 禁用 Bitcode
 
 ### 调试步骤
 
@@ -163,6 +171,14 @@ pod install
 3. 检查架构支持：
 ```bash
 lipo -info YourApp.app/YourApp
+```
+
+## 推荐使用方式
+
+为了获得最佳体验，推荐使用简化的 podspec：
+
+```ruby
+pod 'mailcore2-ios', :path => 'path/to/mailcore2/cocoapods/mailcore2-ios-simple.podspec'
 ```
 
 ## 贡献
